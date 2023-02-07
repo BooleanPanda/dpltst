@@ -3,9 +3,9 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - "master"
     paths:
-      - "src"
+      - "/src"
 
 jobs:
   build:
