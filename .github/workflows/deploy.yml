@@ -2,8 +2,6 @@ name: Deploy
 
 on:
   push:
-    branches:
-      - master
     paths:
       - src
 
@@ -11,6 +9,8 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+
+    if: github.ref == 'refs/heads/master'
 
     steps:
       - name: Checkout repo
