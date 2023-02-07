@@ -24,10 +24,10 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
         with:
-          working-directory: /123
+          working-directory: dpltst/123
 
       - name: Build project
-        working-directory: ./123
+        working-directory: dpltst/123
         run: npm run build
 
       - name: Upload production-ready build files
