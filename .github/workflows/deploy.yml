@@ -25,6 +25,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Build project
+        working-directory: ./123
         run: npm run build
 
       - name: Upload production-ready build files
