@@ -4,7 +4,7 @@ import pic from "./assets/react.svg";
 function App() {
   return (
     <div className="App">
-      <h1>Testing Some Stuff Here</h1>
+      <h1>Don't mind me, just testing some stuff here</h1>
       <img src={pic} />
     </div>
   );
