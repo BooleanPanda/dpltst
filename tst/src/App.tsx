@@ -65,6 +65,7 @@ function App() {
               <div className="App">
                 <h2>UNLUCKY</h2>
                 <h3>refresh</h3>
+                {env}
               </div>
             }
           />
