@@ -59,6 +59,14 @@ function App() {
               </div>
             }
           />
+          <Route
+            path="*"
+            element={
+              <div className="App">
+                <h2>UNLUCKY</h2>
+              </div>
+            }
+          />
         </Route>
       </Routes>
     </BrowserRouter>
