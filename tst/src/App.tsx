@@ -1,12 +1,16 @@
 import "./App.css";
 import pic from "./assets/react.svg";
 import { BrowserRouter, Route, Routes, Outlet, Link } from "react-router-dom";
+import { CustomRouter } from "./router";
+import { createBrowserHistory } from "history";
 
 const env = process.env.NODE_ENV;
 
+const history = createBrowserHistory();
+
 function App() {
   return (
-    <BrowserRouter>
+    <CustomRouter history={history}>
       <Routes>
         <Route
           element={
@@ -71,7 +75,7 @@ function App() {
           />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </CustomRouter>
   );
 }
 
