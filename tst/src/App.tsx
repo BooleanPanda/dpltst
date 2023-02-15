@@ -18,7 +18,7 @@ function App() {
         >
           <Route
             index
-            path=""
+            path="/"
             element={
               <div className="App">
                 <h1>Don't mind me</h1>
@@ -32,7 +32,7 @@ function App() {
             }
           />
           <Route
-            path="first"
+            path="/first"
             element={
               <div className="App">
                 <h2>just testing some stuff.</h2>
@@ -41,7 +41,7 @@ function App() {
             }
           />
           <Route
-            path="second"
+            path="/second"
             element={
               <div className="App">
                 <h2>just testing some stuff.</h2>
@@ -51,7 +51,7 @@ function App() {
             }
           />
           <Route
-            path="third"
+            path="/third"
             element={
               <div className="App">
                 <h2>just testing some stuff.</h2>
