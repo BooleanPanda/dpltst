@@ -1,6 +1,7 @@
 import { useState, useLayoutEffect, useEffect } from "react";
 import { Router } from "react-router-dom";
 import { BrowserHistory } from "history";
+import { basePath } from "../vite.config";
 
 interface CustomRouterHistory {
   history: BrowserHistory;
@@ -23,6 +24,7 @@ export function CustomRouter({ history, ...props }: CustomRouterHistory) {
   return (
     <Router
       {...props}
+      basename={basePath}
       location={state.location}
       navigationType={state.action}
       navigator={history}
