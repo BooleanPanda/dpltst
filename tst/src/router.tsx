@@ -1,7 +1,7 @@
 import { useState, useLayoutEffect, useEffect } from "react";
 import { Router } from "react-router-dom";
 import { BrowserHistory } from "history";
-import { basePath } from "../vite.config";
+import basePath from "./constants";
 
 interface CustomRouterHistory {
   history: BrowserHistory;
