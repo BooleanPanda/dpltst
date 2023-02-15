@@ -29,14 +29,14 @@ function App() {
                 <h2>just testing some stuff.</h2>
                 <p>main page</p>
                 <img src={pic} />
-                <Link to="/first">1</Link>
-                <Link to="/second">2</Link>
-                <Link to="/third">3</Link>
+                <Link to="/fir-st">1</Link>
+                <Link to="/sec-ond">2</Link>
+                <Link to="/thi-rd">3</Link>
               </div>
             }
           />
           <Route
-            path="/first"
+            path="/fir-st"
             element={
               <div className="App">
                 <h2>just testing some stuff.</h2>
@@ -45,7 +45,7 @@ function App() {
             }
           />
           <Route
-            path="/second"
+            path="/sec-ond"
             element={
               <div className="App">
                 <h2>just testing some stuff.</h2>
@@ -55,7 +55,7 @@ function App() {
             }
           />
           <Route
-            path="/third"
+            path="/thi-rd"
             element={
               <div className="App">
                 <h2>just testing some stuff.</h2>
